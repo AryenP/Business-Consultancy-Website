@@ -34,7 +34,7 @@
     <link rel="alternate" hreflang="he" href="https://yoursite.com/he/">
     <link rel="alternate" hreflang="hi" href="https://yoursite.com/hi/">
 </head>
-<body>
+<body data-theme="dark">
     <header>
         <nav class="top-nav">
             <div class="logo">
@@ -42,11 +42,11 @@
             </div>
             <div class="nav-container">
                 <ul class="nav-links">
-                    <li><a href="#home" data-i18n="nav.home">Home</a></li>
-                    <li><a href="#why-india" data-i18n="nav.whyIndia">Why India</a></li>
-                    <li><a href="#services" data-i18n="nav.services">Our Services</a></li>
-                    <li><a href="#sectors" data-i18n="nav.sectors">Key Sectors</a></li>
-                    <li><a href="#contact" class="cta-button" data-i18n="nav.contact">Contact Us</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#why-india">Why India</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#sectors">Key Sectors</a></li>
+                    <li><a href="#contact" class="cta-button">Contact Us</a></li>
                 </ul>
                 <div class="nav-controls">
                     <select id="language-select" onchange="changeLanguage()">
@@ -55,10 +55,13 @@
                         <option value="hi">हिंदी</option>
                     </select>
                     <button class="theme-toggle" onclick="toggleTheme()">
-                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
                     </button>
                 </div>
             </div>
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
     </header>
 
@@ -68,7 +71,6 @@
             <p class="subtitle" data-i18n="hero.subtitle">We help Israeli companies establish successful partnerships and operations in India with 70% ownership control</p>
             <div class="cta-group">
                 <a href="#contact" class="primary-button">Schedule a Consultation</a>
-                <a href="#why-india" class="secondary-button">Learn More</a>
             </div>
         </div>
     </section>
@@ -133,6 +135,18 @@
                     <li data-i18n="services.research.items.2">Entry Strategy Planning</li>
                     <li data-i18n="services.research.items.3">Location Advisory</li>
                 </ul>
+                <div class="expanded-content">
+                    <h4>Why Choose Our Market Research?</h4>
+                    <p>Our comprehensive market research helps Israeli companies understand India's vast market potential:</p>
+                    <ul>
+                        <li>Detailed sector analysis and growth projections</li>
+                        <li>Consumer behavior and market trends</li>
+                        <li>Competitive landscape mapping</li>
+                        <li>Regulatory environment assessment</li>
+                        <li>Market entry strategy recommendations</li>
+                    </ul>
+                    <p>We leverage data from multiple sources and our on-ground presence to provide actionable insights.</p>
+                </div>
             </div>
             <div class="service-card">
                 <i class="fas fa-handshake"></i>
@@ -143,6 +157,18 @@
                     <li data-i18n="services.partnership.items.2">Negotiation Assistance</li>
                     <li data-i18n="services.partnership.items.3">JV Structure Advisory</li>
                 </ul>
+                <div class="expanded-content">
+                    <h4>Why Choose Our Partnership Services?</h4>
+                    <p>We facilitate successful partnerships between Israeli and Indian companies:</p>
+                    <ul>
+                        <li>Access to pre-vetted network of Indian partners</li>
+                        <li>Thorough background checks and due diligence</li>
+                        <li>Cultural bridging during negotiations</li>
+                        <li>Optimal JV structure recommendations</li>
+                        <li>End-to-end partnership formation support</li>
+                    </ul>
+                    <p>Our deep understanding of both markets ensures successful collaborations.</p>
+                </div>
             </div>
             <div class="service-card">
                 <i class="fas fa-scale-balanced"></i>
@@ -153,6 +179,18 @@
                     <li data-i18n="services.legal.items.2">IP Protection</li>
                     <li data-i18n="services.legal.items.3">Contract Advisory</li>
                 </ul>
+                <div class="expanded-content">
+                    <h4>Why Choose Our Legal Services?</h4>
+                    <p>Navigate Indian legal and regulatory landscape with confidence:</p>
+                    <ul>
+                        <li>Expert guidance on FDI regulations</li>
+                        <li>Seamless company registration process</li>
+                        <li>Robust IP protection strategies</li>
+                        <li>Comprehensive compliance management</li>
+                        <li>Legal documentation and contract support</li>
+                    </ul>
+                    <p>We ensure your business operates within all legal frameworks.</p>
+                </div>
             </div>
             <div class="service-card">
                 <i class="fas fa-building"></i>
@@ -163,12 +201,25 @@
                     <li data-i18n="services.setup.items.2">Banking Setup</li>
                     <li data-i18n="services.setup.items.3">Vendor Selection</li>
                 </ul>
+                <div class="expanded-content">
+                    <h4>Why Choose Our Setup Services?</h4>
+                    <p>Get your business operational quickly and efficiently:</p>
+                    <ul>
+                        <li>Strategic location selection</li>
+                        <li>Local talent acquisition support</li>
+                        <li>Banking relationship establishment</li>
+                        <li>Vendor and supplier networking</li>
+                        <li>Complete operational setup assistance</li>
+                    </ul>
+                    <p>We handle the setup details so you can focus on your business growth.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="sectors" class="sectors-section">
-        <h2 data-i18n="sectors.title">Key Focus Sectors</h2>
+        <h2 class="section-title" data-i18n="sectors.title">Key Focus Sectors</h2>
+        <p class="section-intro" data-i18n="sectors.intro">Explore high-potential sectors where Israeli companies can leverage their expertise in the Indian market.</p>
         <div class="sectors-grid">
             <div class="sector-card">
                 <i class="fas fa-seedling"></i>
@@ -204,36 +255,41 @@
                     <p><i class="fas fa-location-dot"></i> Mumbai</p>
                 </div>
             </div>
-            <form class="contact-form">
-                <div class="form-group">
-                    <label for="name" data-i18n="contact.form.name">Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="company">Company</label>
-                    <input type="text" id="company" name="company" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="sector">Sector of Interest</label>
-                    <select id="sector" name="sector" required>
-                        <option value="">Select Sector</option>
-                        <option value="agritech">Agritech & Water</option>
-                        <option value="defense">Defense & Security</option>
-                        <option value="technology">Technology & Innovation</option>
-                        <option value="healthcare">Healthcare & Life Sciences</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-                <button type="submit" class="submit-button">Schedule Consultation</button>
-            </form>
+            <div class="contact-form">
+                <form id="contactForm" onsubmit="return sendEmail(event)">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company" required placeholder="Your company name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="sector">Sector of Interest</label>
+                        <select id="sector" name="sector" required>
+                            <option value="">Select a sector</option>
+                            <option value="Agritech & Water">Agritech & Water</option>
+                            <option value="Defense & Security">Defense & Security</option>
+                            <option value="Technology & Innovation">Technology & Innovation</option>
+                            <option value="Healthcare & Life Sciences">Healthcare & Life Sciences</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Tell us about your business needs..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-button" id="submitBtn">
+                        <span class="button-text">Schedule Consultation</span>
+                        <span class="button-loader" style="display: none;">Sending...</span>
+                    </button>
+                </form>
+            </div>
         </div>
     </section>
 
@@ -274,18 +330,58 @@
         </div>
     </footer>
 
-    <div class="chat-widget" onclick="openChat()">
+    <div class="chat-widget" onclick="toggleChat()">
         <i class="fas fa-comments"></i>
     </div>
 
+    <div class="chat-container">
+        <div class="chat-header">
+            <h3>Chat with us</h3>
+            <button class="chat-close" onclick="toggleChat()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chat-messages">
+            <div class="message bot">
+                Hello! How can we help you today?
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" placeholder="Type your message..." id="chatInput">
+            <button onclick="sendMessage()">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
     <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        emailjs.init("Lmg2AbO702t5_lwr8");
+    </script>
     <!-- Add Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR-GA-ID"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'YOUR-GA-ID');
+        gtag('config', 'G-XXXXXXXXXX');
+        
+        // Track form submissions
+        document.querySelector('.contact-form').addEventListener('submit', () => {
+            gtag('event', 'form_submission', {
+                'event_category': 'engagement',
+                'event_label': 'contact_form'
+            });
+        });
+        
+        // Track language changes
+        document.getElementById('language-select').addEventListener('change', (e) => {
+            gtag('event', 'language_change', {
+                'event_category': 'engagement',
+                'event_label': e.target.value
+            });
+        });
     </script>
 </body>
 </html> 
