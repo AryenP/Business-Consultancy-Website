@@ -1,0 +1,350 @@
+{
+  "en": {
+    "meta": {
+      "title": "Indo-Israeli Business Partnership Consultancy",
+      "description": "Premier consultancy helping Israeli companies establish successful partnerships in India with 70% ownership control. Expert guidance in tech, defense, agriculture & healthcare sectors."
+    },
+    "nav": {
+      "home": "Home",
+      "whyIndia": "Why India",
+      "services": "Our Services",
+      "sectors": "Key Sectors",
+      "contact": "Contact Us"
+    },
+    "hero": {
+      "title": "Your Gateway to India's $3.5 Trillion Economy",
+      "subtitle": "We help Israeli companies establish successful partnerships and operations in India with 70% ownership control"
+    },
+    "stats": {
+      "title": "Why India Now?",
+      "intro": "India's rapid economic growth and business-friendly reforms create unprecedented opportunities for Israeli companies.",
+      "economy": "$30+ Trillion",
+      "economyText": "Projected Economy by 2047",
+      "economyDetail": "World's fastest-growing major economy",
+      "market": "1.4 Billion",
+      "marketText": "Consumer Market",
+      "marketDetail": "World's largest middle class by 2025",
+      "ownership": "70%",
+      "ownershipText": "Allowed Foreign Ownership",
+      "ownershipDetail": "Liberalized FDI policy across sectors",
+      "meetings": "500+",
+      "meetingsText": "B2B Meetings in Recent Forum",
+      "meetingsDetail": "Strong government support for India-Israel partnerships",
+      "advantages": {
+        "startup": "Startup Hub",
+        "startupText": "3rd largest startup ecosystem with 100+ unicorns",
+        "talent": "Tech Talent",
+        "talentText": "5 million+ tech professionals, growing annually",
+        "market": "Market Access",
+        "marketText": "Gateway to Asia & Africa markets"
+      }
+    },
+    "services": {
+      "title": "Our Services",
+      "research": {
+        "title": "Market Research & Strategy",
+        "items": [
+          "Market Size Analysis",
+          "Competitor Mapping",
+          "Entry Strategy Planning",
+          "Location Advisory"
+        ]
+      },
+      "partnership": {
+        "title": "Partnership Facilitation",
+        "items": [
+          "Indian Partner Identification",
+          "Due Diligence Support",
+          "Negotiation Assistance",
+          "JV Structure Advisory"
+        ]
+      },
+      "legal": {
+        "title": "Legal & Compliance",
+        "items": [
+          "Company Registration",
+          "Regulatory Compliance",
+          "IP Protection",
+          "Contract Advisory"
+        ]
+      },
+      "setup": {
+        "title": "Business Setup",
+        "items": [
+          "Office Space Selection",
+          "Recruitment Support",
+          "Banking Setup",
+          "Vendor Selection"
+        ]
+      }
+    },
+    "sectors": {
+      "title": "Key Focus Sectors",
+      "agritech": {
+        "title": "Agritech & Water",
+        "description": "Leverage Israeli irrigation & farming technology in India's vast agricultural sector"
+      },
+      "defense": {
+        "title": "Defense & Security",
+        "description": "Joint ventures in defense manufacturing with up to 74% foreign ownership"
+      },
+      "tech": {
+        "title": "Technology & Innovation",
+        "description": "R&D centers and tech partnerships in AI, cybersecurity, and software"
+      },
+      "healthcare": {
+        "title": "Healthcare & Life Sciences",
+        "description": "Medical devices, pharma research, and digital health solutions"
+      }
+    },
+    "contact": {
+      "title": "Start Your India Journey",
+      "subtitle": "Schedule a free consultation with our experts",
+      "form": {
+        "name": "Name",
+        "company": "Company",
+        "email": "Email",
+        "sector": "Sector of Interest",
+        "message": "Message",
+        "submit": "Schedule Consultation"
+      }
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "subtitle": "Get the latest insights on India-Israel business opportunities",
+      "button": "Subscribe"
+    }
+  },
+  "he": {
+    "meta": {
+      "title": "ייעוץ שותפויות עסקיות הודו-ישראל",
+      "description": "חברת ייעוץ מובילה המסייעת לחברות ישראליות להקים שותפויות מוצלחות בהודו עם 70% שליטה. הדרכה מקצועית בתחומי הטכנולוגיה, הביטחון, החקלאות והבריאות."
+    },
+    "nav": {
+      "home": "בית",
+      "whyIndia": "למה הודו",
+      "services": "השירותים שלנו",
+      "sectors": "מגזרים מרכזיים",
+      "contact": "צור קשר"
+    },
+    "hero": {
+      "title": "השער שלך לכלכלה ההודית בשווי 3.5 טריליון דולר",
+      "subtitle": "אנו מסייעים לחברות ישראליות להקים שותפויות ופעילות מוצלחת בהודו עם 70% בעלות"
+    },
+    "stats": {
+      "title": "למה הודו עכשיו?",
+      "intro": "הצמיחה הכלכלית המהירה של הודו והרפורמות התומכות בעסקים יוצרות הזדמנויות חסרות תקדים לחברות ישראליות",
+      "economy": "30+ טריליון דולר",
+      "economyText": "תחזית כלכלית ל-2047",
+      "economyDetail": "הכלכלה הצומחת המהירה בעולם",
+      "market": "1.4 מיליארד",
+      "marketText": "שוק צרכנים",
+      "marketDetail": "מעמד הביניים הגדול בעולם עד 2025",
+      "ownership": "70%",
+      "ownershipText": "בעלות זרה מותרת",
+      "ownershipDetail": "מדיניות השקעות זרות ליברלית",
+      "meetings": "+500",
+      "meetingsText": "פגישות עסקיות בפורום האחרון",
+      "meetingsDetail": "תמיכה ממשלתית חזקה בשותפויות הודו-ישראל",
+      "advantages": {
+        "startup": "מרכז סטארטאפים",
+        "startupText": "אקוסיסטם הסטארטאפים השלישי בגודלו עם יותר מ-100 חדי-קרן",
+        "talent": "כישרונות טכנולוגיים",
+        "talentText": "יותר מ-5 מיליון אנשי מקצוע בתחום הטכנולוגיה",
+        "market": "גישה לשווקים",
+        "marketText": "שער כניסה לשווקי אסיה ואפריקה"
+      }
+    },
+    "services": {
+      "title": "השירותים שלנו",
+      "research": {
+        "title": "מחקר שוק ואסטרטגיה",
+        "items": [
+          "ניתוח גודל שוק",
+          "מיפוי מתחרים",
+          "תכנון אסטרטגיית כניסה",
+          "ייעוץ מיקום"
+        ]
+      },
+      "partnership": {
+        "title": "תיווך שותפויות",
+        "items": [
+          "איתור שותפים הודים",
+          "בדיקת נאותות",
+          "סיוע במשא ומתן",
+          "ייעוץ מבנה שותפות"
+        ]
+      },
+      "legal": {
+        "title": "משפטי ורגולציה",
+        "items": [
+          "רישום חברה",
+          "עמידה ברגולציה",
+          "הגנת קניין רוחני",
+          "ייעוץ חוזים"
+        ]
+      },
+      "setup": {
+        "title": "הקמת עסק",
+        "items": [
+          "בחירת משרדים",
+          "גיוס עובדים",
+          "הקמת חשבון בנק",
+          "בחירת ספקים"
+        ]
+      }
+    },
+    "sectors": {
+      "title": "מגזרים מרכזיים",
+      "agritech": {
+        "title": "אגריטק ומים",
+        "description": "ניצול טכנולוגיית השקיה וחקלאות ישראלית בסקטור החקלאי הענק של הודו"
+      },
+      "defense": {
+        "title": "ביטחון והגנה",
+        "description": "מיזמים משותפים בייצור ביטחוני עם עד 74% בעלות זרה"
+      },
+      "tech": {
+        "title": "טכנולוגיה וחדשנות",
+        "description": "מרכזי מו\"פ ושותפויות טכנולוגיות בתחומי AI, סייבר ותוכנה"
+      },
+      "healthcare": {
+        "title": "בריאות ומדעי החיים",
+        "description": "מכשור רפואי, מחקר תרופות ופתרונות בריאות דיגיטליים"
+      }
+    },
+    "contact": {
+      "title": "התחל את המסע שלך להודו",
+      "subtitle": "קבע ייעוץ חינם עם המומחים שלנו",
+      "form": {
+        "name": "שם",
+        "company": "חברה",
+        "email": "דוא\"ל",
+        "sector": "תחום עניין",
+        "message": "הודעה",
+        "submit": "קבע ייעוץ"
+      }
+    },
+    "newsletter": {
+      "title": "הישאר מעודכן",
+      "subtitle": "קבל את התובנות האחרונות על הזדמנויות עסקיות בין הודו לישראל",
+      "button": "הרשמה"
+    }
+  },
+  "hi": {
+    "meta": {
+      "title": "भारत-इजरायल व्यापार साझेदारी परामर्श",
+      "description": "इजरायली कंपनियों को 70% स्वामित्व नियंत्रण के साथ भारत में सफल साझेदारी स्थापित करने में मदद करने वाली प्रमुख परामर्श कंपनी। टेक, रक्षा, कृषि और स्वास्थ्य क्षेत्रों में विशेषज्ञ मार्गदर्शन।"
+    },
+    "nav": {
+      "home": "होम",
+      "whyIndia": "भारत क्यों?",
+      "services": "हमारे सेवाएं",
+      "sectors": "मुख्य विभाग",
+      "contact": "संपर्क करें"
+    },
+    "hero": {
+      "title": "भारत के 3.5 ट्रिलियन डॉलर के दरम्यान अपना दरवाजा खोलें",
+      "subtitle": "हम आयरलैंडी कंपनियों को 70% स्वामित्व के साथ भारत में सफल साझेदारी और संचालन बनाने में मदद करते हैं"
+    },
+    "stats": {
+      "title": "भारत क्यों अब?",
+      "intro": "भारत की तीव्र आर्थिक वृद्धि और व्यवसाय के लिए समर्थक रिफॉर्मों ने आयरलैंडी कंपनियों को अनन्य अवसर बनाए हैं",
+      "economy": "$30+ ट्रिलियन डॉलर",
+      "economyText": "2047 के लिए अर्थव्यवस्था का अनुमान",
+      "economyDetail": "विश्व में सबसे तेज वृद्धि वाली मुख्य आर्थिक वृद्धि",
+      "market": "1.4 अरब",
+      "marketText": "उपभोक्ता बाजार",
+      "marketDetail": "विश्व में सबसे बड़ा बीजीय वर्ग 2025 तक",
+      "ownership": "70%",
+      "ownershipText": "अंतर्गत स्वामित्व की अनुमति",
+      "ownershipDetail": "सेक्टरों में अंतर्गत निवेश नीति",
+      "meetings": "500+",
+      "meetingsText": "आखिरी फोरम में व्यवसाय मीटिंग",
+      "meetingsDetail": "भारत-आयरलैंड सहयोगों के लिए सरकार की मजबूत समर्थन",
+      "advantages": {
+        "startup": "स्टार्टअप हब",
+        "startupText": "तीसरे स्टार्टअप एकॉसिस्टम जिसका आकार 100+ युनिकॉर्न के साथ है",
+        "talent": "तकनीकी योग्यता",
+        "talentText": "5 मिलियन से अधिक प्रौद्योगिक व्यक्ति वर्तमान में वृद्धि",
+        "market": "बाजार प्रवेश",
+        "marketText": "एशिया और अफ्रीका बाजारों में प्रवेश"
+      }
+    },
+    "services": {
+      "title": "हमारी सेवाएं",
+      "research": {
+        "title": "बाजार अन्वेषण और रणनीति",
+        "items": [
+          "बाजार आकार विश्लेषण",
+          "प्रतिद्वंभव मैपिंग",
+          "प्रवेश रणनीति योजना",
+          "स्थान विद्युत"
+        ]
+      },
+      "partnership": {
+        "title": "सहयोग सहयोग",
+        "items": [
+          "भारतीय सहयोग पता लगाना",
+          "दूरगत जांच सहायता",
+          "मुंह और दान सहायता",
+          "सहयोग सहयोग सहायता"
+        ]
+      },
+      "legal": {
+        "title": "कानून और सहमति",
+        "items": [
+          "कंपनी पंजीकरण",
+          "नियमन सहमति",
+          "आयात सुरक्षा",
+          "अनुवाद सहायता"
+        ]
+      },
+      "setup": {
+        "title": "व्यवसाय स्थापना",
+        "items": [
+          "कार्यालय स्थान चुनना",
+          "कर्मचारी सहायता",
+          "बैंकिंग स्थापना",
+          "वेंडर चुनना"
+        ]
+      }
+    },
+    "sectors": {
+      "title": "मुख्य फोकस विभाग",
+      "agritech": {
+        "title": "एग्रिटेक्स और पानी",
+        "description": "भारत के विस्तृत खेती विभाग में इजरायली बाजरी और फाल्गुन प्रौद्योगिक प्रयोग"
+      },
+      "defense": {
+        "title": "रक्षा और सुरक्षा",
+        "description": "74% अंतर्गत स्वामित्व के साथ रक्षा उद्योग में सहयोग"
+      },
+      "tech": {
+        "title": "तकनीक और नवाचार",
+        "description": "AI, सिवर और सॉफ्टवेयर में केंद्रीय और तकनीकी सहयोग"
+      },
+      "healthcare": {
+        "title": "स्वास्थ्य और जीवन विज्ञान",
+        "description": "डिजिटल स्वास्थ्य समाधान, फार्मा अन्वेषण और आर्थिक समाधान"
+      }
+    },
+    "contact": {
+      "title": "भारत के यात्रा आरंभ करें",
+      "subtitle": "हमारे विशेषज्ञों के साथ मुफ्त सलाह विनिर्देश",
+      "form": {
+        "name": "नाम",
+        "company": "कंपनी",
+        "email": "ईमेल",
+        "sector": "विद्युत विषय",
+        "message": "संदेश",
+        "submit": "सलाह विनिर्देश"
+      }
+    },
+    "newsletter": {
+      "title": "अपडेट रहें",
+      "subtitle": "भारत-आयरलैंड व्यवसाय अवसरों पर आखिरी ज्ञान प्राप्त करें",
+      "button": "सदस्यता लें"
+    }
+  }
+}
